@@ -12,6 +12,7 @@ class Account extends StatelessWidget {
         title: Center(child: Text('Account',style: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.w400),)),
       ),
 
+
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

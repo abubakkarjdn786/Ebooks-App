@@ -11,4 +11,4 @@ class _AccountInfoState extends State<AccountInfo> {
       child: Center(child: Text('Account Info')),
     );
   }
-} 
+}

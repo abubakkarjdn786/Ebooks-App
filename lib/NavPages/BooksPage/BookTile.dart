@@ -42,7 +42,7 @@ class BookTiles extends StatelessWidget {
                 Icon(Icons.bookmark_border),
               ],
             ),
-          )
+          ),
         ],
       ),
     );

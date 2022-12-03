@@ -31,7 +31,6 @@ class TextButtons extends StatelessWidget {
             children: [
               Text(btntxt,style: TextStyle(color: Colors.red,fontWeight: FontWeight.w600,fontSize: 15),),
               Icon(Icons.arrow_forward_ios,size: 18,color: Colors.red,),
-
             ],
           ),),
 
