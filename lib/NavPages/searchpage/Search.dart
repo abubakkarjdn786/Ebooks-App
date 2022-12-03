@@ -60,8 +60,6 @@ class Search extends StatelessWidget {
               SearchClass( interst: 'Life Style',),
               SearchClass( interst: 'General Fiction',),
               SearchClass( interst: 'Historical Fiction',),
-
-
             ],
           ),
         ),

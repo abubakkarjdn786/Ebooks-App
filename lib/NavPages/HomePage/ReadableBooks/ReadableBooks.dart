@@ -25,15 +25,14 @@ final String btntxt;
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(text,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25),),
+          Text(text,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
           Container(child: Row(
             children: [
-              Text(btntxt,style: TextStyle(color: Colors.red,fontWeight: FontWeight.w600,fontSize: 18),),
+              Text(btntxt,style: TextStyle(color: Colors.red,fontWeight: FontWeight.w600,fontSize: 15),),
               Icon(Icons.arrow_forward_ios,size: 18,color: Colors.red,),
 
             ],
           ),),
-
         ],
       ),
     );

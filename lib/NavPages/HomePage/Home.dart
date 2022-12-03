@@ -48,8 +48,7 @@ class _HomeState extends State<Home> {
           onTap: _SelectItem,
 
         ),
-
-        body: _widgetOptions.elementAt(_SelectedIndex)
+          body: _widgetOptions.elementAt(_SelectedIndex)
       ),
     );
   }

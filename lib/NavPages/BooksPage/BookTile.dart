@@ -32,7 +32,6 @@ class BookTiles extends StatelessWidget {
               Text(author,style: TextStyle(fontSize: 12,fontWeight: FontWeight.w300),),
               SizedBox(height: 8,),
               Rating(),
-
             ],
           ),
           SizedBox(width: 30,),
