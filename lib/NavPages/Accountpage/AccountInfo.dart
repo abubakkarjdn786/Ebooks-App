@@ -7,8 +7,10 @@ class AccountInfo extends StatefulWidget {
 class _AccountInfoState extends State<AccountInfo> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(child: Text('Account Info')),
+    return Scaffold(
+      body: Container(
+        child: Center(child: Text('Account Info')),
+      ),
     );
   }
 }

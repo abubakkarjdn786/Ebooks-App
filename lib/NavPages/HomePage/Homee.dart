@@ -17,13 +17,15 @@ class _HomeeState extends State<Homee> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
+          automaticallyImplyLeading: false,
           backgroundColor: Colors.white,
           title: Column(
             children: [
 
               Padding(
-                padding: const EdgeInsets.only(top: 15,bottom: 5),
-                child: Center(child: Text('E-Books',style: (TextStyle(color: Colors.blue)),)),
+                padding: const EdgeInsets.only(top: 15,bottom: 5,),
+                child: Text('E-Books',style: (TextStyle(color: Colors.blue)),),
               ),
               Divider(),
             ],

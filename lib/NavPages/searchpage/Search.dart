@@ -7,11 +7,12 @@ class Search extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 65,
+        automaticallyImplyLeading: false,
+        toolbarHeight: 70,
         backgroundColor: Colors.white,
         title: Container(
-          padding: EdgeInsets.symmetric(horizontal: 20,vertical: 1),
-          height: 35,
+          padding: EdgeInsets.symmetric(horizontal: 20,),
+          height: 40,
           decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
           ),

@@ -18,6 +18,7 @@ class _SavedState extends State<Library> {
       length: 5,
       child: Scaffold(
         appBar:AppBar(
+          automaticallyImplyLeading: false,
           toolbarHeight: 65,
             backgroundColor: Colors.white,
             title: Text('Saved',style: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.w400),),

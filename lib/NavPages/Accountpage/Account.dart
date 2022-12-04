@@ -7,9 +7,11 @@ class Account extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        automaticallyImplyLeading: false,
         backgroundColor: Colors.white,
         toolbarHeight: 60,
-        title: Center(child: Text('Account',style: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.w400),)),
+        title: Text('Account',style: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.w400),),
       ),
 
 
@@ -31,13 +33,14 @@ class Account extends StatelessWidget {
             ),
             Divider(thickness: 2,height: 5,),
             GestureDetector(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  TextButton(onPressed: null, child: Text('Account Information',style: TextStyle(fontSize: 17,fontWeight: FontWeight.w400,color: Colors.black),)),
-                  IconButton(onPressed: null, icon: Icon(Icons.arrow_forward_ios,size: 17,)),
-                ],
-              ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    TextButton(onPressed: null, child: Text('Account Information',style: TextStyle(fontSize: 17,fontWeight: FontWeight.w400,color: Colors.black),)),
+                    IconButton(onPressed: null, icon: Icon(Icons.arrow_forward_ios,size: 17,)),
+                  ],
+                ),
+
 
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder:(BuildContext context){

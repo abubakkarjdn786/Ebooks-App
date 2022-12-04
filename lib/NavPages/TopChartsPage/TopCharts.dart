@@ -30,12 +30,13 @@ class _TopChartsState extends State<TopCharts> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
-            child: Text(
+        automaticallyImplyLeading: false,
+        centerTitle: true,
+        title: Text(
           'Top Charts',
           style: TextStyle(
-              color: Colors.black54, fontWeight: FontWeight.w400, fontSize: 20),
-        )),
+          color: Colors.black54, fontWeight: FontWeight.w400, fontSize: 20),
+        ),
         backgroundColor: Colors.white,
       ),
       body: Padding(
@@ -111,7 +112,7 @@ class _TopChartsState extends State<TopCharts> {
                                               height: 30,
                                             ),
                                             Container(decoration: BoxDecoration(
-                                              color: Colors.green[700],
+                                              color: Colors.lightBlue,
                                               borderRadius: BorderRadius.circular(5),
                                             ),
 
@@ -122,7 +123,7 @@ class _TopChartsState extends State<TopCharts> {
                                                   child: Text(
                                                     'Books',
                                                     style: TextStyle(
-                                                        color: Colors.white70,
+                                                        color: Colors.white,
                                                         fontSize: 18),
                                                   ),
                                                 )),
@@ -131,7 +132,7 @@ class _TopChartsState extends State<TopCharts> {
                                             ),
                                             Container(
                                                 decoration: BoxDecoration(
-                                                    color: Colors.green[700],
+                                                    color: Colors.lightBlue,
                                                   borderRadius: BorderRadius.circular(5),
                                                 ),
                                                 width: 500,
@@ -141,7 +142,7 @@ class _TopChartsState extends State<TopCharts> {
                                                   child: Text(
                                                     'Audio Books',
                                                     style: TextStyle(
-                                                        color: Colors.white70,
+                                                        color: Colors.white,
                                                         fontSize: 18),
                                                   ),
                                                 )),
